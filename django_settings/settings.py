@@ -84,7 +84,7 @@ CHANNEL_LAYERS = {"default": {"BACKEND": "channels.layers.InMemoryChannelLayer"}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'django_vk2',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': '2425',
         'HOST': 'localhost',
